@@ -1,0 +1,76 @@
+[
+    {
+        "name": "xiaoler/blade",
+        "version": "0.2.2",
+        "version_normalized": "0.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/XiaoLer/blade.git",
+            "reference": "c09532871e148124b1e801eec91f81249e503d8a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/XiaoLer/blade/c09532871e148124b1e801eec91f81249e503d8a.zip",
+            "reference": "c09532871e148124b1e801eec91f81249e503d8a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2015-10-24 14:05:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/helpers.php"
+            ],
+            "psr-4": {
+                "Xiaoler\\Blade\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scholer Liu",
+                "email": "scholer_l@live.com"
+            }
+        ],
+        "description": "an independent version of laravel view template - blade",
+        "homepage": "http://0x1.im"
+    },
+    {
+        "name": "mikey179/vfsStream",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikey179/vfsStream.git",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://packagist.phpcomposer.com/files/mikey179/vfsStream/fc0fe8f4d0b527254a2dc45f0c265567c881d07e.zip",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-08-25 12:49:29",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "org\\bovigo\\vfs": "src/main/php"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "homepage": "http://vfs.bovigo.org/"
+    }
+]

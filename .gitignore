@@ -1,8 +1,12 @@
 .DS_Store
 
 application/cache/*
+!application/cache/views/*
 !application/cache/index.html
 !application/cache/.htaccess
+
+application/cache/views/*
+!application/cache/views/index.html
 
 application/logs/*
 !application/logs/index.html

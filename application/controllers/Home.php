@@ -18,6 +18,6 @@ class Home extends MY_Controller
      */
     public function index()
     {
-        $this->load->view('welcome_message');
+        $this->blade->view('home');
     }
 }
