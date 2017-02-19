@@ -8,7 +8,11 @@
     <title>@yield('title', 'Page Title')</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    @if(isset($css) === true)
+    <!-- Include all compiled styles -->
+    <link href="{{ $css }}" rel="stylesheet">
+    @endif
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,8 +24,12 @@
   <body>
     @yield('content')
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../js/jquery.min.js"></script>
+    <script src="/assets/jquery/js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    @if(isset($js) === true)
+    <!-- Include all compiled scripts -->
+    <script src="{{ $js }}"></script>
+    @endif
   </body>
 </html>
