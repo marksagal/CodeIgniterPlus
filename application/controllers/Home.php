@@ -1,5 +1,5 @@
 <?php
-class Home extends MY_Controller
+class Home extends CoreController
 {
     /**
      * Index Page for this controller.
